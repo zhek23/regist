@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма авторизации</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form_area">
+            <p class="title">LOGIN</p>
+            <form id="loginForm">
+                <div class="form_group">
+                    <label class="sub_title" for="email">Email</label>
+                    <input placeholder="Введите ваш email" id="email" class="form_style" type="email" required>
+                </div>
+                <div class="form_group">
+                    <label class="sub_title" for="password">Пароль</label>
+                    <input placeholder="Введите пароль" id="password" class="form_style" type="password" required>
+                </div>
+                <div>
+                    <button type="submit" class="btn">Войти</button>
+                    <p>Нет аккаунта? <a class="link" href="index.html">Зарегистрироваться</a></p>
+                </div>
+                <p id="message"></p>
+            </form>
+        </div>
+    </div>
+    <script src="../js/script-login.js"></script>
+</body>
+</html>
